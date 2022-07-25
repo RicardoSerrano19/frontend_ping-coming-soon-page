@@ -59,3 +59,33 @@ body{
     font-weight: 700;
     color: var(--very-dark-blue);
 }
+
+/* Notify */
+.container__notify, 
+.container__notify > *,
+input{
+    width: 100%;
+}
+
+.container__notify__field_text{
+    border-radius: 2rem;
+    border: none;
+    border: 1px solid var(--gray);
+    padding: 0.7rem;
+    margin: 1rem 0;
+}
+
+.container__notify__btn{
+    border-radius: 2rem;
+    padding: 0.7rem;
+    border: none;
+    background-color: var(--blue);
+    color: white;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px var(--pale-blue);
+    cursor: pointer;
+}
+
+.container__notify__btn:hover{
+    opacity: 0.8;
+}
