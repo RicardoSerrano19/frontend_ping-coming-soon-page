@@ -94,3 +94,28 @@ input{
     width: 100%;
     margin-top: 5rem;
 }
+
+/* footer */
+.container__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.container__footer__social{
+    color: var(--blue);
+}
+
+ion-icon{
+    background-color: white;
+    border: 1px solid var(--pale-blue);
+    border-radius: 50%;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.container__footer__copyright{
+    color: var(--gray)
+}
