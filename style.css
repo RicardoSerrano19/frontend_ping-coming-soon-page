@@ -29,6 +29,7 @@ body{
 
 .container{
     max-width: 90%;
+    width: 35rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
