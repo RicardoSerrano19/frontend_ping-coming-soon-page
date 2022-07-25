@@ -17,13 +17,45 @@ html {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    font-weight: 200;
+    font-weight: 300;
     font-family: 'Libre Franklin', sans-serif;
 }
 
 body{
-    background-color: var(--light-gray);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container{
+    max-width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container img{
+    width: 6rem;
+    margin-bottom: 1rem;
+}
+
+.container__header{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.container__header__title, .bold{
+    font-size: 2.8rem;
+}
+
+.container__header__title{
+    color: var(--gray);
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.bold{
+    font-weight: 700;
+    color: var(--very-dark-blue);
 }
