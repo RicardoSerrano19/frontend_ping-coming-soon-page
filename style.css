@@ -29,11 +29,11 @@ body{
 
 .container{
     max-width: 90%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    margin: 2rem 0;
 }
 
 .container__logo{
@@ -105,6 +105,7 @@ input{
 
 .container__footer__social{
     color: var(--blue);
+    margin-bottom: 1rem;
 }
 
 ion-icon{
