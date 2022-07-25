@@ -36,7 +36,7 @@ body{
     align-items: center;
 }
 
-.container img{
+.container__logo{
     width: 6rem;
     margin-bottom: 1rem;
 }
@@ -88,4 +88,9 @@ input{
 
 .container__notify__btn:hover{
     opacity: 0.8;
+}
+
+.container__dashboard{
+    width: 100%;
+    margin-top: 5rem;
 }
